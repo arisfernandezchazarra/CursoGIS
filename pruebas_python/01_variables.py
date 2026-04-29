@@ -21,8 +21,27 @@ print("Este es el valor de:", my_bool_variable)
 # Algunas funciones del sistema
 print(len(my_string_variable)) # len: Cuenta el número caracteres, incluyendo los espacios
 
-# Variables en una sola línea
+# Variables en una sola línea ¡Cuidado con abusar de esta sintaxis!
 name, surname, alias, age = "Aris", "Fernández", "Ars", 35
-print("Me llamo:", name, surname, "My edad es:", age, "Y mi alias es:", alias)
+print("Me llamo:", name, surname, "Mi edad es:", age, "Y mi alias es:", alias)
 
-# ME HE QUEDADO EN EL MIN: 1:16:38
+# Inputs (Es la forma en que tu programa le hace una pregunta al usuario y espera su respuesta)
+'''
+first_name = input('What is your name: ')
+age = input('How old are you? ')
+print(name)
+print(age)
+'''
+
+# Cambiamos su tipo
+name = 35
+age = "Aris"
+print(name)
+print(age)
+
+# ¿Forzamos el tipo? Se queda siempre con el último que pones, en este caso un 'float' porque es decimal
+address: str = "Mi dirección"
+address = True
+address = 35
+address = 0.5
+print(type(address))

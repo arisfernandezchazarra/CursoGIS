@@ -1,0 +1,30 @@
+### Operadores - Para números ### 
+
+print(3 + 4) # suma
+print(3 - 4) # resta
+print(3 * 4) # multiplicación
+print(3 / 4) # división
+print(10 % 3) # operador de módulo - Te dice cuánto sobra cuando divides a entre b
+print(3 // 4) # división "floor" - Aproxima el resultado a un número entero
+print(2 ** 3) # calcular un exponen (ej. 2 elevado a 3)
+print(2 ** 3 + 3  - 7 / 1 // 4)
+
+print("Hola" + "Python") # El + concatena las palabras, pero el resto de símbolos da error
+print("Hola" + str(5)) # No se pueden mezclar palabras y números a no ser que los convirtamos al mismo tipo
+print("Hola " * 10) # Te multiplica la palabra por tantas veces que lo pongas
+print("Hola " * (2 **3)) # Este operador también funciona, pero no es muy habitual
+
+my_float = 2.5 * 2 
+print("Hola " * int(my_float))
+
+### Operadores comparativos ###
+
+print(3 > 4)
+print(3 < 4)
+print(3 >= 4)
+print(3 <= 4)
+print(3 == 4)
+print(3 != 3)
+
+
+# ME HE QUEDADO EN EL MINUTO: 1:59:59
